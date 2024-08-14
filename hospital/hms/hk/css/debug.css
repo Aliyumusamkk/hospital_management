@@ -1,0 +1,347 @@
+.hero-img{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/homebackground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+    overflow: hidden;
+}
+
+.text-box{
+    width: 90%;
+    position: absolute;
+    padding: 15% 5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.hero-img .arrow{
+    color: #2fd3c8;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.hero-img .arrow p{
+    margin: 20px 30px;
+}
+.btn-color{
+    display: inline-block;
+    background-color: #09817d;
+    padding: 8px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.btn-color2{
+    display: inline-block;
+    background-color: #c5a319;
+    padding: 8px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+    margin-top: 15px;
+    text-decoration: none;
+}
+.btn-color2:hover{
+    font-weight: 500;
+    color: #f7d54e;
+    background-color: #0daaa5;
+}
+.btn-color:hover{
+    font-weight: 500;
+    color: #f7cd26;
+    background-color: #0daaa5;
+}
+
+.product1{
+    text-align: center;
+    
+}
+
+.product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product1 .pro{
+     width: 10%;
+     min-width: 150px;
+     padding: 10px 5px;
+     border: 1px solid #cce7d0;
+     border-radius: 10px;
+     cursor: pointer;
+     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.09);
+     margin: 10px;
+     transition: 0.2s ease;
+     position: relative;
+}
+.product1 .pro:hover{
+    box-shadow: 0px 0px 30px rgba(43, 34, 34, 0.09);
+}
+
+.product1 .pro img{
+    width: 80%;
+    border-radius: 10px;
+}
+.product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;   
+}
+
+.product1 .pro .des span{
+    color: #606063;
+    font-size: 12px;
+}
+
+.product1 .pro .des h5{
+    padding-top: 7px;
+    font-size: 14px;
+}
+
+.product1 .pro .des i{
+    font-size: 12px;
+    color: #ddb516;
+}
+
+.product1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+
+.product1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #088178;
+    background-color: #e8f6ea;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(../img/shadda2.jpg);
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: contain;
+}
+
+.banner h4{
+    color: #fff;
+    font-size: 16px;
+}
+
+.banner h2{
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.banner h2 span{
+   color: #ddb516;
+}
+
+.banner a{
+    display: inline-block;
+    background-color: #09817d;
+    padding: 8px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.banner a:hover{
+    font-weight: 500;
+    color: #f7cd26;
+    background-color: #0daaa5;
+}
+
+.sm-banner h4{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.sm-banner h2{
+    margin-top: 20px;
+    color: #2fd3c8;
+    font-size: 20px;
+}
+
+.sm-banner span{
+    color: #ddb516;
+    font-size: 14px;
+}
+
+.sm-banner{
+    width: 100%;
+}
+
+.banner-box{
+    width: 49%;
+    min-height: 35vh;
+    padding: 30px 10px;
+    float: left;
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(../img/poster1.jpg);
+    background-position: center;
+    background-size: contain;
+
+}
+.banner-box1{
+    padding: 30px 10px;
+    width: 49%;
+    min-height: 35vh;
+    float: right;
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(../img/shoe1.jpg);
+    background-position: center;
+    background-size: contain;
+
+}
+.clear-prop::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+/* season */
+
+.sm-banners h3{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.sm-banners h2{
+    margin-top: 30px;
+    color: #2fd3c8;
+    font-size: 20px;
+}
+
+
+.sm-banners{
+    width: 100%;
+}
+
+.banner-boxs{
+    text-align: center;
+    width: 49%;
+    min-height: 35vh;
+    padding: 30px 10px;
+    float: left;
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(../img/homebackground.jpg);
+    background-position: center;
+    background-size: contain;
+
+}
+.banner-boxs1{
+    text-align: center;
+    padding: 30px 10px;
+    width: 49%;
+    min-height: 35vh;
+    float: right;
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(../img/poster3.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+.clear-props::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(../img/shadda2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+
+}
+
+.newsletter h4{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.newsletter p{
+    color: #0daaa5;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.newsletter span{
+    color: #f7cd26;
+   }
+   .newsletter .form{
+    display: flex;
+    width: 40%;
+   }
+
+   .newsletter input{
+    height: 3.125rem;
+    padding: 0 1.0em;
+    font-size: 14px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.newsletter button{
+    background: #0daaa5;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    padding: 0 20px;
+    transition: .5s;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+   
+} 
+
+.newsletter button:hover{
+    background-color: #c5a319;
+    color: #fff;
+}
+.col img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+
+@media (min-width: 700px){
+    .newsletter input{
+        width: 100%;
+    }
+}
